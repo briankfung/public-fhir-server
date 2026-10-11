@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { SupportedResourceType } from "@ufbfung/fhir-types";
+import type { SupportedResourceType } from "@briankfung/fhir-types";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -158,7 +158,7 @@ export default function Home() {
             </span>{" "}
             endpoints constrained to{" "}
             <span className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs">
-              @ufbfung/fhir-types
+              @briankfung/fhir-types
             </span>
             .
           </p>

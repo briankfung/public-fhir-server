@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { SUPPORTED_RESOURCE_TYPES } from "@ufbfung/fhir-types";
+import { SUPPORTED_RESOURCE_TYPES } from "@briankfung/fhir-types";
 
 export async function GET() {
   const rest = [

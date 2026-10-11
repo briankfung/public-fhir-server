@@ -3,11 +3,11 @@ import { sql } from "@/lib/db";
 import type {
   SupportedResource,
   SupportedResourceType,
-} from "@ufbfung/fhir-types";
+} from "@briankfung/fhir-types";
 import {
   isSupportedResource,
   isSupportedResourceType,
-} from "@ufbfung/fhir-types";
+} from "@briankfung/fhir-types";
 
 type OperationOutcomeIssueSeverity = "fatal" | "error" | "warning" | "information";
 
